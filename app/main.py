@@ -13,8 +13,6 @@ from app.config import settings
 from app.database import create_db_and_tables, get_session
 from app.models import UserRead, UserCreate, User, TaskCreate, Task, TaskRead, TaskBase
 
-print("Hello world")
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("tasks_api")
 
